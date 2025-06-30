@@ -8,5 +8,5 @@ sequenceDiagram
     server-->>browser: Server Response. 201 Created
     deactivate server
     
-    Note right of browser: No reload; new list item is displayed
+    Note right of browser: No reload, new list item is displayed
 ```
