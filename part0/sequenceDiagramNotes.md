@@ -7,7 +7,7 @@ sequenceDiagram
     activate server
     server-->>browser: Save user input
     deactivate server
-
+    
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
     server-->>browser: Redirect to notes page
